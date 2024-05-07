@@ -2,25 +2,24 @@
 
 # Problem to solve
 
-Obesity is a significant public health challenge affecting individuals worldwide. Researchers till date, have tried numerous ways to determine the factors that cause obesity.​
+The problem we’ve addressed in this project is that the obesity situation in Latin American countries of Mexico, Peru, and Colombia has become a significant public health concern, with high prevalence rates and associated health risks. Healthcare professionals, public health organizations, and individuals have the urgent need to understand the underlying determinants of obesity and promote healthier lifestyles.
 
-Mexico, Peru and Colombia are facing the same health challenge. In these countries, overweight and obesity are a major risk for non-communicable diseases such as cardiovascular disease (mainly heart disease and stroke) and the leading cause of death in the region from diabetes, hypertension and chronic kidney disease.​
+By analyzing the data collected from Mexico, Peru, and Colombia, we aim to develop an effective predictive model to predict if one will become obese based on their individual conditions, and identify the key factors significantly contributing to obesity in terms of eating habits and physical activities.
 
-My objective is to identify the important factors that contribute to obesity in these countries based on their eating habits and physical condition.
 
 # Method
 
 # Data collection:
-This step involves gathering data from Kaggel, in my case I had one CSV file
+The data was originally collected using a web platform with a survey where anonymous users answered each question, then the information was processed obtaining 18 attributes and 34598 records.
 
 # Data cleaning and transformation:
 This step involves cleaning and preprocessing the data to remove any errors, inconsistencies, or missing values.
 
 # Data visualization:
-This step involves creating various graphs, charts, and other visualizations to understand the data's distribution and identify patterns and trends.
+Tableau has been used to create various types of charts to gain insights into the distribution of variables, correlation between variables, and observe patterns and trends.
 
-# Data analysis: 
-This step involves performing statistical analyses on the data to uncover any relationships between the variables.
+# Data Analysis:
+For the predictive modelling and evaluation, I started with logistic regression as a baseline model due to its simplicity and interpretability. Then I utilized the KNN to develop the second model.
 
 # Data interpretation: 
 This step involves drawing conclusions from the data analysis.
@@ -41,4 +40,4 @@ Our analysis highlights the importance of both numerical and categorical factors
 
 # Recommendations & next steps:
 
-Want to get more data, like Area, Occupations ,Diseases,Year
+For future research, the predictive accuracy of our model could be improved when new additional variables are collected and added into the data frame, such as occupation, working environment,area. Based on the current findings, some of additional in-depth research can be further conducted to probe into some unusual relationship that we found. For example, more research could done and more data could be collected to investigate why the group of people who always eat vegetables has higher probability of becoming obese.
