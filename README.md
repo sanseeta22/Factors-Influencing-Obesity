@@ -41,4 +41,4 @@ Our analysis highlights the importance of both numerical and categorical factors
 
 # Recommendations & next steps:
 
-Want to get more data,like area,occupation,diseases,year
+Want to get more data, like Area, Occupations ,Diseases,Year
